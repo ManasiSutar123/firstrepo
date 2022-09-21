@@ -82,7 +82,7 @@ def complaint():
                 message1 = "Received your complaint. We will soon take soon action. Thank you."
                 server = smtplib.SMTP("smtp.gmail.com",587)
                 server.starttls()
-                server.login("djangopro3031@gmail.com","django@3031")
+                server.login("djangopro3031@gmail.com","fustntwudpvnbqaw")
                 server.sendmail("djangopro3031@gmail.com", email, message1)
     return render_template('user/complaint.html',msg = msg)
 

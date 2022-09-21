@@ -62,7 +62,7 @@ def addmember():
             message = "your registration done successfully your password is " + password
             server = smtplib.SMTP("smtp.gmail.com",587)
             server.starttls()
-            server.login("djangopro3031@gmail.com","django@3031")
+            server.login("djangopro3031@gmail.com","fustntwudpvnbqaw")
             server.sendmail("djangopro3031@gmail.com", email, message)
     return render_template('admin/member/addmember.html',msg = msg)
 
